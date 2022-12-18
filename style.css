@@ -776,163 +776,125 @@ footer{
     display: block;
 }
 .media-query-img div{
+    width: 50%;
+    height: 200px;
     margin: 50px 0 0 30%; 
 }
 .media21{
-    width: 40%;
-    height: 200px;
     background: url('hdd.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media22{
-    width: 40%;
-    height: 200px;
     background: url('flash.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media23{
-    width: 40%;
-    height: 200px;
     background: url('memery_card.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media24{
-    width: 40%;
-    height: 200px;
     background: url('mouse.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media25{
-    width: 40%;
-    height: 200px;
     background: url('keyboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media26{
-    width: 40%;
-    height: 200px;
     background: url('projector.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media27{
-    width: 40%;
-    height: 200px;
     background: url('motherboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media28{
-    width: 40%;
-    height: 200px;
     background: url('speaker.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media29{
-    width: 40%;
-    height: 200px;
     background: url('scanner.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media30{
-    width: 40%;
-    height: 200px;
     background: url('printer.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media31{
-    width: 40%;
-    height: 200px;
     background: url('CPU.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media32{
-    width: 40%;
-    height: 200px;
     background: url('LAN\ tester.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media33{
-    width: 40%;
-    height: 200px;
     background: url('crimper.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media34{
-    width: 40%;
-    height: 200px;
     background: url('cable.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media35{
-    width: 40%;
-    height: 200px;
     background: url('hdmi.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media36{
-    width: 40%;
-    height: 200px;
     background: url('RAM.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media37{
-    width: 40%;
-    height: 200px;
     background: url('processor.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media38{
-    width: 40%;
-    height: 200px;
     background: url('head phone.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media39{
-    width: 40%;
-    height: 200px;
     background: url('web cam.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media40{
-    width: 40%;
-    height: 200px;
     background: url('game\ pad.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
