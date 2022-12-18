@@ -698,11 +698,11 @@ footer{
 .media1, .media3, .media5, .media7, .media9, .media11, .media13, .media15, .media17, .media19{
     width: 50%;
     height: 200px;
-    margin: 50px 0 0 30%;
+    margin: 50px 0 0 20%;
 }
 .media2, .media4, .media6, .media8, .media10, .media12, .media14, .media16,  .media18, .media20{
     display: block;
-    margin: 0 0 0 30%;   
+    margin: 0 0 0 20%;   
 }
 .media1{
     background: url('apple6.jpg');
