@@ -77,7 +77,7 @@ span{
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    background: url('../images/apple001.jpg');
+    background: url('apple001.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -85,7 +85,7 @@ span{
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    background: url('../images/hp3.jpg');
+    background: url('hp3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -93,7 +93,7 @@ span{
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    background: url('../images/speaker.jpg');
+    background: url('speaker.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -101,7 +101,7 @@ span{
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    background: url('../images/toshiba7.jpg');
+    background: url('toshiba7.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -109,7 +109,7 @@ span{
     width: 100%;
     height: 450px;
     border-radius: 20px;
-    background: url('../images/hdmi.jpg');
+    background: url('hdmi.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -144,7 +144,7 @@ article{
 .wrapper1{
     width: 40%;
     height: 300px;
-    background: url('../images/card_reader.jpg');
+    background: url('card_reader.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -153,7 +153,7 @@ article{
 .wrapper3{
     width: 40%;
     height: 300px;
-    background: url('../images/hdd.jpg');
+    background: url('hdd.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -162,7 +162,7 @@ article{
 .wrapper5{
     width: 40%;
     height: 300px;
-    background: url('../images/keyboard.jpg');
+    background: url('keyboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -171,7 +171,7 @@ article{
 .wrapper7{
     width: 40%;
     height: 300px;
-    background: url('../images/mouse.jpg');
+    background: url('mouse.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -188,22 +188,22 @@ article{
     width: 20%;
 }
 .img-1{
-    background: url('../images/card_reader.jpg');
+    background: url('card_reader.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .img-2{
-    background: url('../images/hdd.jpg');
+    background: url('hdd.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .img-3{
-    background: url('../images/keyboard.jpg');
+    background: url('keyboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .img-4{
-    background: url('../images/hdmi.jpg');
+    background: url('hdmi.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -222,22 +222,22 @@ article{
     width: 20%;
 }
 .img-5{
-    background: url('../images/mouse.jpg');
+    background: url('mouse.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .img-6{
-    background: url('../images/printer.jpg');
+    background: url('printer.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .img-7{
-    background: url('../images/LAN\ tester.jpg');
+    background: url('LAN\ tester.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .img-8{
-    background: url('../images/crimper.jpg');
+    background: url('crimper.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -297,97 +297,97 @@ article{
 }
 
 .comp-img1{
-    background: url('../images/apple6.jpg');
+    background: url('apple6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img2{
-    background: url('../images/hp1.jpg');
+    background: url('hp1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img3{
-    background: url('../images/dell5.jpg');
+    background: url('dell5.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img4{
-    background: url('../images/acer6.jpg');
+    background: url('acer6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img5{
-    background: url('../images/hp4.jpg');
+    background: url('hp4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img6{
-    background: url('../images/lenovo2.png');
+    background: url('lenovo2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img7{
-    background: url('../images/toshiba6.jpg');
+    background: url('toshiba6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img8{
-    background: url('../images/hp3.jpg');
+    background: url('hp3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img9{
-    background: url('../images/hp4.jpg');
+    background: url('hp4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img10{
-    background: url('../images/lenovo4.png');
+    background: url('lenovo4.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img11{
-    background: url('../images/toshiba3.jpg');
+    background: url('toshiba3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img12{
-    background: url('../images/apple001.jpg');
+    background: url('apple001.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img13{
-    background: url('../images/lenovo6.jpg');
+    background: url('lenovo6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img14{
-    background: url('../images/toshiba4.jpg');
+    background: url('toshiba4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img15{
-    background: url('../images/toshiba7.jpg');
+    background: url('toshiba7.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .comp-img16{
-    background: url('../images/119927_1642252671.jpg');
+    background: url('119927_1642252671.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -434,145 +434,145 @@ article{
 }
 
 .img-9{
-    background: url('../images/hdd.jpg');
+    background: url('hdd.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-10{
-    background: url('../images/flash.jpg');
+    background: url('flash.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-11{
-    background: url('../images/memery_card.jpg');
+    background: url('memery_card.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-12{
-    background: url('../images/mouse.jpg');
+    background: url('mouse.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-13{
-    background: url('../images/keyboard.jpg');
+    background: url('keyboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-14{
-    background: url('../images/projector.jpg');
+    background: url('projector.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-15{
-    background: url('../images/motherboard.jpg');
+    background: url('motherboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-16{
-    background: url('../images/speaker.jpg');
+    background: url('speaker.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-17{
-    background: url('../images/scanner.jpg');
+    background: url('scanner.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-18{
-    background: url('../images/printer.jpg');
+    background: url('printer.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-19{
-    background: url('../images/CPU.jpg');
+    background: url('CPU.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-20{
-    background: url('../images/LAN\ tester.jpg');
+    background: url('LAN\ tester.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-21{
-    background: url('../images/crimper.jpg');
+    background: url('crimper.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-22{
-    background: url('../images/cable.jpg');
+    background: url('cable.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-23{
-    background: url('../images/hdmi.jpg');
+    background: url('hdmi.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-24{
-    background: url('../images/RAM.jpg');
+    background: url('RAM.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-25{
-    background: url('../images/processor.jpg');
+    background: url('processor.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-26{
-    background: url('../images/head phone.jpg');
+    background: url('head phone.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-27{
-    background: url('../images/web cam.jpg');
+    background: url('web cam.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-28{
-    background: url('../images/router.jpg');
+    background: url('router.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-29{
-    background: url('../images/UPS.jpg');
+    background: url('UPS.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-30{
-    background: url('../images/CD.jpg');
+    background: url('CD.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-31{
-    background: url('../images/game\ pad.jpg');
+    background: url('game\ pad.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .img-32{
-    background: url('../images/usb.jpg');
+    background: url('usb.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -699,7 +699,7 @@ footer{
 .media1{
     width: 40%;
     height: 200px;
-    background: url('../images/apple6.jpg');
+    background: url('apple6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -707,7 +707,7 @@ footer{
 .media3{ 
     width: 40%;
     height: 200px;
-    background: url('../images/hp1.jpg');
+    background: url('hp1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -715,7 +715,7 @@ footer{
 .media5{ 
     width: 40%;
     height: 200px;
-    background: url('../images/dell5.jpg');
+    background: url('dell5.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -723,7 +723,7 @@ footer{
 .media7{ 
     width: 40%;
     height: 200px;
-    background: url('../images/acer6.jpg');
+    background: url('acer6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -731,7 +731,7 @@ footer{
 .media9{ 
     width: 40%;
     height: 200px;
-    background: url('../images/hp4.jpg');
+    background: url('hp4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -739,7 +739,7 @@ footer{
 .media11{ 
     width: 40%;
     height: 200px;
-    background: url('../images/lenovo2.png');
+    background: url('lenovo2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -747,7 +747,7 @@ footer{
 .media13{ 
     width: 40%;
     height: 200px;
-    background: url('../images/toshiba6.jpg');
+    background: url('toshiba6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -755,7 +755,7 @@ footer{
 .media15{ 
     width: 40%;
     height: 200px;
-    background: url('../images/hp3.jpg');
+    background: url('hp3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -763,7 +763,7 @@ footer{
 .media17{ 
     width: 40%;
     height: 200px;
-    background: url('../images/hp4.jpg');
+    background: url('hp4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -771,7 +771,7 @@ footer{
 .media19{ 
     width: 40%;
     height: 200px;
-    background: url('../images/lenovo4.png');
+    background: url('lenovo4.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -793,7 +793,7 @@ footer{
 .media21{
     width: 40%;
     height: 200px;
-    background: url('../images/hdd.jpg');
+    background: url('hdd.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -801,7 +801,7 @@ footer{
 .media22{
     width: 40%;
     height: 200px;
-    background: url('../images/flash.jpg');
+    background: url('flash.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -809,7 +809,7 @@ footer{
 .media23{
     width: 40%;
     height: 200px;
-    background: url('../images/memery_card.jpg');
+    background: url('memery_card.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -817,7 +817,7 @@ footer{
 .media24{
     width: 40%;
     height: 200px;
-    background: url('../images/mouse.jpg');
+    background: url('mouse.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -825,7 +825,7 @@ footer{
 .media25{
     width: 40%;
     height: 200px;
-    background: url('../images/keyboard.jpg');
+    background: url('keyboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -833,7 +833,7 @@ footer{
 .media26{
     width: 40%;
     height: 200px;
-    background: url('../images/projector.jpg');
+    background: url('projector.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -841,7 +841,7 @@ footer{
 .media27{
     width: 40%;
     height: 200px;
-    background: url('../images/motherboard.jpg');
+    background: url('motherboard.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -849,7 +849,7 @@ footer{
 .media28{
     width: 40%;
     height: 200px;
-    background: url('../images/speaker.jpg');
+    background: url('speaker.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -857,7 +857,7 @@ footer{
 .media29{
     width: 40%;
     height: 200px;
-    background: url('../images/scanner.jpg');
+    background: url('scanner.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -865,7 +865,7 @@ footer{
 .media30{
     width: 40%;
     height: 200px;
-    background: url('../images/printer.jpg');
+    background: url('printer.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -873,7 +873,7 @@ footer{
 .media31{
     width: 40%;
     height: 200px;
-    background: url('../images/CPU.jpg');
+    background: url('CPU.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -881,7 +881,7 @@ footer{
 .media32{
     width: 40%;
     height: 200px;
-    background: url('../images/LAN\ tester.jpg');
+    background: url('LAN\ tester.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -889,7 +889,7 @@ footer{
 .media33{
     width: 40%;
     height: 200px;
-    background: url('../images/crimper.jpg');
+    background: url('crimper.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -897,7 +897,7 @@ footer{
 .media34{
     width: 40%;
     height: 200px;
-    background: url('../images/cable.jpg');
+    background: url('cable.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -905,7 +905,7 @@ footer{
 .media35{
     width: 40%;
     height: 200px;
-    background: url('../images/hdmi.jpg');
+    background: url('hdmi.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -913,7 +913,7 @@ footer{
 .media36{
     width: 40%;
     height: 200px;
-    background: url('../images/RAM.jpg');
+    background: url('RAM.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -921,7 +921,7 @@ footer{
 .media37{
     width: 40%;
     height: 200px;
-    background: url('../images/processor.jpg');
+    background: url('processor.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -929,7 +929,7 @@ footer{
 .media38{
     width: 40%;
     height: 200px;
-    background: url('../images/head phone.jpg');
+    background: url('head phone.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -937,7 +937,7 @@ footer{
 .media39{
     width: 40%;
     height: 200px;
-    background: url('../images/web cam.jpg');
+    background: url('web cam.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
@@ -945,7 +945,7 @@ footer{
 .media40{
     width: 40%;
     height: 200px;
-    background: url('../images/game\ pad.jpg');
+    background: url('game\ pad.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
