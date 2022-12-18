@@ -651,12 +651,9 @@ footer{
         display: block;
     }
     .container1 div{
-        width: 80%;
-        margin: 45px 0 0 30px;
-    }
-    .container1-img{
-        position: absolute;
         width: 90%;
+        height: auto;
+        margin: 45px 0 0 20px;
     }
     .container2 h1{
         font-size: small;
