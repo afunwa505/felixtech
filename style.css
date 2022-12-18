@@ -696,6 +696,8 @@ footer{
     height: auto;
 }
 .media1, .media3, .media5, .media7, .media9, .media11, .media13, .media15, .media17, .media19{
+    width: 50%;
+    height: 200px;
     margin: 50px 0 0 30%;
 }
 .media2, .media4, .media6, .media8, .media10, .media12, .media14, .media16,  .media18, .media20{
@@ -703,80 +705,60 @@ footer{
     margin: 0 0 0 30%;   
 }
 .media1{
-    width: 50%;
-    height: 200px;
     background: url('apple6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media3{ 
-    width: 40%;
-    height: 200px;
     background: url('hp1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media5{ 
-    width: 40%;
-    height: 200px;
     background: url('dell5.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media7{ 
-    width: 40%;
-    height: 200px;
     background: url('acer6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media9{ 
-    width: 40%;
-    height: 200px;
     background: url('hp4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media11{ 
-    width: 40%;
-    height: 200px;
     background: url('lenovo2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media13{ 
-    width: 40%;
-    height: 200px;
     background: url('toshiba6.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .media15{ 
-    width: 40%;
-    height: 200px;
     background: url('hp3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
-.media17{ 
-    width: 40%;
-    height: 200px;
+.media17{
     background: url('hp4.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 15px;
 }
-.media19{ 
-    width: 40%;
-    height: 200px;
+.media19{
     background: url('lenovo4.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
