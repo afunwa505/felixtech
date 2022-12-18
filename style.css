@@ -1,0 +1,963 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+#hamburger_menu, #close_button{
+    display: none;
+}
+.reveal{
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    opacity: 1;
+  }
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 0 0 0;
+}
+
+.title{
+    width: 30%;
+    font-size: large;
+    font-weight: bold;
+}
+span{
+    background-color: #E31E24;
+}
+.nav{
+    font-size: large;
+    font-weight: bold;
+    width: 50%;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#first-hr{
+    height: 15px;
+    background-color: #ffffff;
+}
+.second-hr{
+    width: 30%;
+}
+.container1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.container1 div{
+    width: 40%;
+    height: 500px;
+    margin: 45px 0 0 0;
+}
+
+#sl-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    background: url('../images/apple001.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sl-2{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    background: url('../images/hp3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sl-3{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    background: url('../images/speaker.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sl-4{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    background: url('../images/toshiba7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sl-5{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    background: url('../images/hdmi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container1-text{
+    text-align: justify;
+}
+.container2{
+    width: 100%;
+    height: 270px;
+    background: #ffffff;
+    color: #222222;
+    margin: 20px 0 0 0;
+    padding: 30px 0 0 0;
+}
+.container2 h1{
+    text-align: center;
+    padding:20px 50px 0 0 ;
+}
+
+.container2 ol {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 50px 0 0 0;
+}
+article{
+    width: 100%;
+    height: 1730px;
+    display: none;
+}
+
+.wrapper1{
+    width: 40%;
+    height: 300px;
+    background: url('../images/card_reader.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin: 50px 0 0 0;
+}
+.wrapper3{
+    width: 40%;
+    height: 300px;
+    background: url('../images/hdd.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin: 50px 0 0 0;
+}
+.wrapper5{
+    width: 40%;
+    height: 300px;
+    background: url('../images/keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin: 50px 0 0 0;
+}
+.wrapper7{
+    width: 40%;
+    height: 300px;
+    background: url('../images/mouse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin: 50px 0 0 0;
+}
+.container3, .container5{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+}
+.container3 div{
+    width: 20%;
+}
+.img-1{
+    background: url('../images/card_reader.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img-2{
+    background: url('../images/hdd.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img-3{
+    background: url('../images/keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img-4{
+    background: url('../images/hdmi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container4, .container6{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    color: #222222;
+}
+.container4 div{
+    width: 20%;
+}
+.container5 div{
+    width: 20%;
+}
+.img-5{
+    background: url('../images/mouse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img-6{
+    background: url('../images/printer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img-7{
+    background: url('../images/LAN\ tester.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img-8{
+    background: url('../images/crimper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container6 div{
+    width: 20%;
+}
+.container7{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 0 0;
+}
+.container7 div{
+    width: 30%;
+}
+.art-1, .art-2{
+    width: 100%;    
+    padding: 30px 30px 0 30px;
+}
+
+.media2, .media4, .media6, .media8, .media10, .media12, .media14, .media16,  .media18, .media20{
+    display: none;
+}
+.container8, .container9, .container10, .container11, .container12, .container13, .container14, .container15{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.container8{
+    margin: 40px 0 0 0;
+}
+.container8 div{
+    width: 20%;
+}
+.container9 div{
+    width: 20%;
+}
+.container10 div{
+    width: 20%;
+}
+.container11 div{
+    width: 20%;
+}
+.container12 div{
+    width: 20%;
+}
+.container13 div{
+    width: 20%;
+}
+.container14 div{
+    width: 20%;
+}
+.container15 div{
+    width: 20%;
+}
+
+.comp-img1{
+    background: url('../images/apple6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img2{
+    background: url('../images/hp1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img3{
+    background: url('../images/dell5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img4{
+    background: url('../images/acer6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img5{
+    background: url('../images/hp4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img6{
+    background: url('../images/lenovo2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img7{
+    background: url('../images/toshiba6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img8{
+    background: url('../images/hp3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img9{
+    background: url('../images/hp4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img10{
+    background: url('../images/lenovo4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img11{
+    background: url('../images/toshiba3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img12{
+    background: url('../images/apple001.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img13{
+    background: url('../images/lenovo6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img14{
+    background: url('../images/toshiba4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img15{
+    background: url('../images/toshiba7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.comp-img16{
+    background: url('../images/119927_1642252671.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+
+
+.container17, .container18, .container19, .container20{
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+#awesome1, #awesome2, #awesome3, #awesome4{
+    color: yellow;
+}
+.media-query-img{
+    display: none;
+}
+.container21, .container22, .container23, .container24, .container25, .container26{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
+}
+.container21 div{
+    width: 20%;
+}
+.container22 div{
+    width: 20%;
+}
+.container23 div{
+    width: 20%;
+}
+.container24 div{
+    width: 20%;
+}
+.container25 div{
+    width: 20%;
+}
+.container26 div{
+    width: 20%;
+}
+
+.img-9{
+    background: url('../images/hdd.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-10{
+    background: url('../images/flash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-11{
+    background: url('../images/memery_card.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-12{
+    background: url('../images/mouse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-13{
+    background: url('../images/keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-14{
+    background: url('../images/projector.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-15{
+    background: url('../images/motherboard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-16{
+    background: url('../images/speaker.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-17{
+    background: url('../images/scanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-18{
+    background: url('../images/printer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-19{
+    background: url('../images/CPU.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-20{
+    background: url('../images/LAN\ tester.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-21{
+    background: url('../images/crimper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-22{
+    background: url('../images/cable.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-23{
+    background: url('../images/hdmi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-24{
+    background: url('../images/RAM.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-25{
+    background: url('../images/processor.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-26{
+    background: url('../images/head phone.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-27{
+    background: url('../images/web cam.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-28{
+    background: url('../images/router.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-29{
+    background: url('../images/UPS.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-30{
+    background: url('../images/CD.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-31{
+    background: url('../images/game\ pad.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.img-32{
+    background: url('../images/usb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.terms{
+    width: 100%;
+    height: 400px;
+    padding: 50px 0 0 50px;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: grey;
+    padding: 15px 0 0 50px;
+}
+@media screen and (max-width: 767px){
+    .nav{
+        font-size: small;
+    }
+    .container1{
+        height: 700px;
+    }
+    .art-1{
+        height: 450px;
+    }
+    .terms{
+        height: 600px;
+        padding: 50px 20px 0 30px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 575px){
+    *{
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+        line-height: 1.5em;
+        font-family: sans-serif;  
+    }
+    #hamburger_menu, #close_button{
+        display: block;
+    }
+     .title{
+        width: 60%;
+         position: absolute;
+         top: 5%;
+         left: 35%;
+         font-size: x-small;
+     }
+     .nav{
+         width: 100%;
+        position: absolute;
+        top: 12%;
+        font-size: x-small;
+        display: none;
+     }
+     #hamburger_menu {
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 4%;
+        left: 86%;
+    }
+    #close_button{
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 4%;
+        left: 86%;
+        display: none;
+    }
+    .container1{
+        width: 100%;
+        height: 1100px;
+        display: block;
+    }
+    .container1 div{
+        width: 80%;
+        margin: 45px 0 0 30px;
+    }
+    .container2 h1{
+        font-size: small;
+    }
+   .container2 h3{
+       font-size: small;
+   }
+    .container3, .container4, .container5, .container6{
+        display: none;
+    }
+    article{
+        display: block;
+    }
+   .wrapper1, .wrapper3, .wrapper5, .wrapper7{
+       width: 50%;  
+       margin: 50px 0 0 25%;
+   }
+   .wrapper2, .wrapper4, .wrapper6, .wrapper8{
+        margin: 0 0 0 25%;
+   }
+   .container7{
+       display: block;
+       height: 1000px;
+   }
+   .container7 div{
+    width: 40%;
+    height: 350px;
+    margin: 40px 0 0 25%;
+}
+.container8, .container9, .container10, .container11, .container12, .container13, .container14, .container15{
+    display: none;
+}
+.media-query{
+    width: 100%;
+    height: auto;
+}
+.media1, .media3, .media5, .media7, .media9, .media11, .media13, .media15, .media17, .media19{
+    margin: 50px 0 0 30%;
+}
+.media2, .media4, .media6, .media8, .media10, .media12, .media14, .media16,  .media18, .media20{
+    display: block;
+    margin: 0 0 0 30%;   
+}
+.media1{
+    width: 40%;
+    height: 200px;
+    background: url('../images/apple6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media3{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/hp1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media5{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/dell5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media7{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/acer6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media9{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/hp4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media11{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/lenovo2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media13{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/toshiba6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media15{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/hp3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media17{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/hp4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media19{ 
+    width: 40%;
+    height: 200px;
+    background: url('../images/lenovo4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.container17, .container18, .container19, .container20{
+    padding: 0 20px 0 20px;
+}
+.container21, .container22, .container23, .container24, .container25, .container26{
+    display: none;
+}
+.media-query-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.media-query-img div{
+    margin: 50px 0 0 30%; 
+}
+.media21{
+    width: 40%;
+    height: 200px;
+    background: url('../images/hdd.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media22{
+    width: 40%;
+    height: 200px;
+    background: url('../images/flash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media23{
+    width: 40%;
+    height: 200px;
+    background: url('../images/memery_card.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media24{
+    width: 40%;
+    height: 200px;
+    background: url('../images/mouse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media25{
+    width: 40%;
+    height: 200px;
+    background: url('../images/keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media26{
+    width: 40%;
+    height: 200px;
+    background: url('../images/projector.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media27{
+    width: 40%;
+    height: 200px;
+    background: url('../images/motherboard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media28{
+    width: 40%;
+    height: 200px;
+    background: url('../images/speaker.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media29{
+    width: 40%;
+    height: 200px;
+    background: url('../images/scanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media30{
+    width: 40%;
+    height: 200px;
+    background: url('../images/printer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media31{
+    width: 40%;
+    height: 200px;
+    background: url('../images/CPU.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media32{
+    width: 40%;
+    height: 200px;
+    background: url('../images/LAN\ tester.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media33{
+    width: 40%;
+    height: 200px;
+    background: url('../images/crimper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media34{
+    width: 40%;
+    height: 200px;
+    background: url('../images/cable.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media35{
+    width: 40%;
+    height: 200px;
+    background: url('../images/hdmi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media36{
+    width: 40%;
+    height: 200px;
+    background: url('../images/RAM.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media37{
+    width: 40%;
+    height: 200px;
+    background: url('../images/processor.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media38{
+    width: 40%;
+    height: 200px;
+    background: url('../images/head phone.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media39{
+    width: 40%;
+    height: 200px;
+    background: url('../images/web cam.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.media40{
+    width: 40%;
+    height: 200px;
+    background: url('../images/game\ pad.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.terms{
+    height: 700px;
+    padding: 50px 20px 0 30px;
+    text-align: justify;
+}
+footer{
+    position: absolute;
+    bottom: -500%;
+}
+
+}
