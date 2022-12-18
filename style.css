@@ -764,11 +764,16 @@ footer{
     background-size: 100% 100%;
     border-radius: 15px;
 }
-.container17, .container18, .container19, .container20{
+ .container18, .container19{
     height: 400px;
-     margin: 0 0 0 0;
+     margin: 0;
     padding: 0 20px 0 20px;
 }
+.container17, .container20{
+    height: 400px;
+    margin: 40px 0 0 0;
+    padding: 0 20px 0 20px;
+    }
 .container21, .container22, .container23, .container24, .container25, .container26{
     display: none;
 }
