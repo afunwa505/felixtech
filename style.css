@@ -683,7 +683,7 @@ footer{
    }
    .container7 div{
     width: 40%;
-    height: 350px;
+    height: auto;
     margin: 40px 0 0 25%;
 }
 .container8, .container9, .container10, .container11, .container12, .container13, .container14, .container15{
