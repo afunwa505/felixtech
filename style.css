@@ -673,10 +673,10 @@ footer{
    .wrapper1, .wrapper3, .wrapper5, .wrapper7{
        width: 60%;  
        height: 250px;
-       margin: 50px 0 0 20%;
+       margin: 50px 0 0 15%;
    }
    .wrapper2, .wrapper4, .wrapper6, .wrapper8{
-        margin: 0 0 0 20%;
+        margin: 0 0 0 15%;
    }
    .container7{
        display: block;
