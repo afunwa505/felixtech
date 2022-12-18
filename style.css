@@ -655,7 +655,7 @@ footer{
         margin: 45px 0 0 30px;
     }
     .container1-img{
-        display: inline-block;
+        position: absolute;
         width: 90%;
     }
     .container2 h1{
