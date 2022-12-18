@@ -679,7 +679,7 @@ footer{
    }
    .container7{
        display: block;
-       height: 1000px;
+       height: 1030px;
    }
    .container7 div{
     width: 40%;
@@ -959,6 +959,8 @@ footer{
     padding: 50px 20px 0 30px;
     text-align: justify;
 }
-
+footer{
+    height: 80px;
+    }
 
 }
