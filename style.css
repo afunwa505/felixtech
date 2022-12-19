@@ -616,6 +616,9 @@ footer{
     #hamburger_menu, #close_button{
         display: block;
     }
+    .hide{
+     display: none;   
+    }
      .title{
         width: 60%;
          position: absolute;
