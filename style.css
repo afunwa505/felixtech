@@ -617,7 +617,7 @@ footer{
         display: block;
     }
     .hide{
-     display: none;   
+     visibility: hidden;   
     }
      .title{
         width: 60%;
