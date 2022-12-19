@@ -617,7 +617,7 @@ footer{
         display: block;
     }
     .hide{
-     visibility: hidden;   
+     display: none;   
     }
      .title{
         width: 60%;
@@ -650,7 +650,7 @@ footer{
     }
     .container1{
         width: 100%;
-        height: 1140px;
+        height: 900px;
         display: block;
     }
     .container1 div{
