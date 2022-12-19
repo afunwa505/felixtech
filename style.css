@@ -792,9 +792,9 @@ footer{
     display: block;
 }
 .media-query-img div{
-    width: 50%;
+    width: 80%;
     height: 200px;
-    margin: 50px 0 0 24%; 
+    margin: 50px 0 0 10%; 
 }
 .media21{
     background: url('hdd.jpg');
